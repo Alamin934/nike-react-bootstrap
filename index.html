@@ -6,23 +6,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React Bootstrap</title>
+    <!-- Font-Awesome Link -->
+    <script src="https://kit.fontawesome.com/c6c5c32d2d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap Css Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Main/Style Css Link -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-
+    <header class="pt-3 pb-5" style="background-color: #fff9f4;">
+        <!-- NavBar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="icons/logo.png" alt="" width="290px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-bold">
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar End -->
+        <!-- Banner Start -->
+        <section class="container py-5">
+            <div class="row gx-5 d-flex align-items-center">
+                <div class="col-md-5 order-md-first order-last">
+                    <img class="img-fluid" src="images/Group33092.png" alt="">
+                </div>
+                <div class="col-md-7 order-md-last order-first">
+                    <div class="w-50 mx-auto">
+                        <h1 class="mb-0">NIKE REACT</h1>
+                        <h1 class="text-dark mt-n2">INFINITY RUN 2</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.</p>
+                        <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner End -->
     </header>
     <!-- Main -->
     <main>
-
+        <!-- Casual Shoes Start -->
+        <section class="container py-5">
+            <h2 class="fw-bold">CASUAL SHOES</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="bg-light rounded-3 h-100 d-flex justify-content-center">
+                            <img src="images/image5.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="bg-light rounded-3 h-100 d-flex justify-content-center">
+                            <img src="images/Daco_1703273 1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="bg-light rounded-3 h-100 d-flex justify-content-center">
+                            <img src="images/pngegg1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Casual Shoes End -->
+        <!-- Formal Shoes Start -->
+        <section class="container py-5">
+            <h2 class="fw-bold">FORMAL SHOES</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="rounded-3">
+                            <img src="images/MaskGroup.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="rounded-3">
+                            <img src="images/Rectangle38.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow p-4 rounded-3">
+                        <div class="rounded-3">
+                            <img src="images/Rectangle39.png" class=" card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-0">
+                            <h5 class="card-title fw-bold">Nike Shoe</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional con.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="mb-0 fw-bold">$234</h3>
+                            <button class="btn btn-primary"><span class="me-2"><i
+                                        class="fas fa-shopping-cart"></i></span> Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Formal Shoes End -->
     </main>
     <!-- footer -->
-    <footer>
-
+    <footer class="container py-5">
+        <div class="row g-5 p-2">
+            <div class="col-md-5 icons order-last order-md-first">
+                <div class="row shadow px-3 py-4 mb-3 rounded-3">
+                    <div class="col-3">
+                        <img src="icons/image 12.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-9">
+                        <h5 class="mt-0 fw-bold">Find the Perfect Fit</h5>
+                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse.
+                        </p>
+                    </div>
+                </div>
+                <div class="row shadow px-3 py-4 mb-3 rounded-3">
+                    <div class="col-3">
+                        <img src="icons/image 12.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-9">
+                        <h5 class="mt-0 fw-bold">Find the Perfect Fit</h5>
+                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse.
+                        </p>
+                    </div>
+                </div>
+                <div class="row shadow px-3 py-4 mb-3 rounded-3">
+                    <div class="col-3">
+                        <img src="icons/image 12.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col-9">
+                        <h5 class="mt-0 fw-bold">Find the Perfect Fit</h5>
+                        <p>Will you do the same for me? It's time to face the music I'm no longer your muse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 order-first order-md-last">
+                <img src="icons/XMLID 1.png" class="img-fluid" alt="">
+            </div>
+        </div>
     </footer>
     <!-- Bootstrap Js Bundle Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
